@@ -1,0 +1,36 @@
+#   ┌─┐┬┌┬┐┬┌─┐┌┐┌┌─┐┬─┐┌─┐
+#   │ ┬│ │ ││ ┬││││ │├┬┘├┤
+#  o└─┘┴ ┴ ┴└─┘┘└┘└─┘┴└─└─┘
+
+# Mac files
+Icon?
+.DS_store
+Desktop.ini
+Thumbs.db
+
+# dependencies
+node_modules/*
+bower_components/*
+
+# Built files
+dist/*
+
+# Local files
+.env
+.variables
+ignore/*
+
+# Logs
+*/*.map
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+
+# Misc.
+!.gitkeep
+.idea
+.vscode
+.projectile
+*/tags
+
+
