@@ -1,8 +1,8 @@
 body {
   display: grid;
   grid-template-columns: 75% 25%;
-  grid-template-rows: 10vw 30vw 10vw;
-  grid-gap: 1em;
+  grid-template-rows: 10vw 1fr 10vw;
+  grid-gap: 0px;
 }
 
 header,
