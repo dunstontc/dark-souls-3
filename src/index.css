@@ -1,3 +1,43 @@
+
+
+:root {
+  --brown: #563B30;
+  --yellow: #EBCB66;
+  --blue: #334670;
+  --orange: #F56912;
+}
+
 * {
-  color: blue;
+  color: var(--brown);
+}
+
+body, html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover   { text-decoration: underline; }
+a:visited {}
+
+
+ul, li {
+  list-style: none;
+  color: var(--yellow);
+}
+
+header {
+  background-color: var(--yellow);
+}
+
+.sidebar {
+  background-color: var(--brown);
+}
+
+.navLink {
+  color: var(--yellow);
 }

@@ -75,5 +75,5 @@ export default [
 	{"bonfire": "Church of Filianore", "location": "The Ringed City", "boss": false},
 	{"bonfire": "Darkeater Midir ", "location": "The Ringed City", "boss": true},
 	{"bonfire": "Filianores Rest", "location": "The Ringed City", "boss": false},
-	{"bonfire": "Slave Knight Gael ", "location": "The Ringed City", "boss": true}
+	{"bonfire": "Slave Knight Gael ", "location": "The Ringed City", "boss": true},
 ]
