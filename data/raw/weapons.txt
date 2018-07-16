@@ -1,0 +1,27 @@
+Daggers
+Straight Swords
+Greatswords
+Ultra Greatswords
+Curved Swords
+Katanas
+Curved Greatswords
+Piercing Swords
+Axes
+Greataxes
+Hammers
+Great Hammers
+Fist & Claws
+Spears & Pikes
+Halberds
+Reapers
+Whips
+Bows
+Greatbows
+Crossbows
+Staves
+Flames
+Talismans
+Sacred Chimes
+Small Shields
+Standard Shields
+Greatshields

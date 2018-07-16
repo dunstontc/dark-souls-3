@@ -1,0 +1,20 @@
+BOSS	LOCATION	NPC SUMMONING	WEAKNESS	RESISTANCE	IMMUNITY	PARRYABLE	OPTIONAL
+Iudex Gundyr	Cemetery of Ash	None	Fire/Frost/Riposte	Dark/Bleed	Poison/Toxic	YES	NO
+Vordt of the Boreal Valley	High Wall of Lothric	Sword Master  Lion Knight Albert	Fire/Dark	Slash/Thrust	Poison/Toxic  Bleed/Frost	NO	NO
+Curse-Rotted Greatwood	Undead Settlement	None	Slash/Thrust/Fire  Sacs	None	Poison/Toxic  Bleed/Frost	NO	YES1
+Crystal Sage	Road of Sacrifices	Eygon of Carim	Slash/Thrust/Strike  Poison/Toxic	Magic	None	NO	NO
+Abyss Watchers	Farron Keep	Sirris of the Sunless Realms   or Londor Pale Shade   or Black Hand Gotthard	Lightning/Backstab	Dark/Bleed	Poison/Toxic	YES	NO
+Deacons of the Deep	Cathedral of the Deep	Anri of Astora  Sirris of the Sunless Realms or Horace the Hushed	Slash/Thrust/Strike  Hollowslayer GS	Magic/Dark  Bleed	None	YES	NO
+High Lord Wolnir	Catacombs of Carthus	none	Bracelets / Blessed Weapons Farron/Wolf Knight's GS	Dark	Poison/Toxic  Bleed/Frost	NO	NO
+Old Demon King	Smouldering Lake	Knight Slayer Tsorig  Great Swamp Cuculus	Dark  Black Knight Weapons	Fire	Bleed/Frost	NO	YES
+Pontiff Sulyvahn	Irithyll of the Boreal Valley	Anri of Astora  Black Hand Gotthard  Londor Pale Shade	Thrust/Riposte	Poison/Toxic  Bleed/Frost	None	YES	NO
+Yhorm the Giant	Profaned Capital	* Siegward of Catarina joins the player during the boss cutscene if his questline is fulfilled	Storm Ruler  Lightning	Physical/Magic/Dark	Fire/Poison/Toxic  Bleed/Frost	NO	NO
+Aldrich, Devourer of Gods	Anor Londo	None  * Anri of Astora summons the player in his world to defeat Aldrich if his/her quesline is  fulfilled	Fire/Lightning  Farron/Wolf Knight's GS	Magic/Dark	Poison/Toxic	NO	NO
+Dancer of the Boreal Valley	High Wall of Lothric  After 3 Lords of Cinder are defeated  (or Emma is killed)	Sword Master	Dark/Lightning/Strike	Bleed	Poison/Toxic/Frost	NO	NO
+Dragonslayer Armour	Lothric Castle	Sirris of the Sunless Realms  Eygon of Carim	Frost  Farron/Wolf Knight's GS	Dark/Lightning	Poison/Toxic/Bleed	NO	NO
+Oceiros, the Consumed King	Consumed King's Garden	Hawkwood	Lightning	Magic/Bleed	Poison/Toxic	NO	YES2
+Champion Gundyr	Untended Graves	Sword Master	Lightning	Poison/Toxic/Bleed	None	YES	YES
+Lothric, Younger Prince	The top of Lothric Castle	Sirris of the Sunless Realms  Orbeck of Vinheim	(Lorian) Lightning/Frost  (Lothric) Slash/Thrust/Strike	Dark	Poison/Toxic	YES3	NO
+Ancient Wyvern	Archdragon Peak	None	Lightning/Frost  Plunging Attack	Poison/Toxic/Bleed	None	NO	YES
+Nameless King	Archdragon Peak	None  * Hawkwood can be summoned but he will desert when reaching the altar or when the  player ring the bell	(King of the Storm)  Lightning  (Nameless King)  Fire	(King of the Storm)  Fire/Bleed  Poison/Toxic  (Nameless King)  Lightning	(King of the Storm)  None  (Nameless King)  Poison/Toxic	NO	YES
+Soul of Cinder	Kiln of the First Flame	Yuria of Londor  Shade of Londor	Lightning	Fire	None	Stagger  (Only in 2nd Phase)	NO

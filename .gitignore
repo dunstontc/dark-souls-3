@@ -9,7 +9,7 @@ Desktop.ini
 Thumbs.db
 
 # dependencies
-node_modules/*
+node_modules
 bower_components/*
 
 # Built files
