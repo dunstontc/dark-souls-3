@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className='header'>
       <h1 className='header-text'>
-        <Link to="/" exact={true}>
+        <Link to="/">
           Dark Souls 3
         </Link>
       </h1>
