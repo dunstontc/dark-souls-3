@@ -6,7 +6,7 @@ import Footer from './layout/Footer';
 class Home extends React.Component {
   render() {
     return (
-        <div>
+        <div className="flex-container">
           <Header/>
           <Sidebar/>
           <Footer/>
