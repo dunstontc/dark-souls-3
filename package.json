@@ -1,6 +1,6 @@
 {
-  "name": "react-template",
-  "version": "0.0.1",
+  "name": "ds3",
+  "version": "0.0.0",
   "description": "Dark Souls 3 Progression Tracker",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.10.2",
     "webpack-cli": "^2.1.4",
