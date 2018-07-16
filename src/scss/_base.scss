@@ -7,7 +7,10 @@
 
 * {
   color: var(--brown);
+  box-sizing: border-box;
 }
+
+style { display: none; }
 
 body, html {
   box-sizing: border-box;

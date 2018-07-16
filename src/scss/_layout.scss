@@ -1,0 +1,57 @@
+html, body, .flex-container {
+	margin : 0px;
+	padding: 0px;
+	height : 100%;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center; // Horizontal
+	align-items: stretch; // Vertical (cross-axis)
+	background: rebeccapurple;
+	height: 100%;
+}
+
+header {
+	height: 54px;
+	background: red;
+}
+
+div.body {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center; // Horizontal
+	align-items: stretch; // Vertical (cross-axis)
+	outline: 0.5px solid black;
+	height    : auto;
+
+}
+
+nav.sidebar {
+	background: yellow;
+	// flex-grow: 0;
+	// width: 300px;
+	* {
+		padding-left: 5px;
+		text-align: left;
+	}
+	ul {
+		list-style-type    : none;
+		list-style-position: inside;
+		li {
+			list-style-type:     none;
+			list-style-position: inside;
+		}
+	}
+}
+
+.main-body {
+	background: green;
+	flex-grow : 1;
+}
+
+footer {
+	height: 23px;
+	background: indigo;
+}
