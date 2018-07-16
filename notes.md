@@ -30,4 +30,5 @@
 ## Links
 - [Official Font](http://www.myfonts.com/fonts/adobe/trajan/)
 - [font 2](https://imgur.com/gallery/pNLid)
+- [Atvaark/DarkSoulsIII.FileFormats](https://github.com/Atvaark/DarkSoulsIII.FileFormats)
 
