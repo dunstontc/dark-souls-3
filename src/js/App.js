@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from './layout/Header';
-import Sidebar from './layout/Sidebar';
-import Footer from './layout/Footer';
-import Main from './layout/Main';
+import Header from './components/layout/Header';
+import Sidebar from './components/layout/Sidebar';
+import Footer from './components/layout/Footer';
+import Main from './components/layout/Main';
 
 class App extends React.Component {
   render() {
