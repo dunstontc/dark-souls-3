@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 
-import App from './js/App';
+import App from './js/app';
 
-import './styles/index.scss';
+import './index.scss';
 
 
 ReactDOM.render(
