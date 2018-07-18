@@ -12,18 +12,20 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
+        use: { loader: 'babel-loader' },
       },
       {
         test: /\.s?css$/,
         use: [
-          { loader: "style-loader" },
-          { loader: "css-loader" },
-          { loader: "sass-loader" },
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
+          { loader: 'sass-loader' },
         ]
       },
+      {
+        test: /\.(woff2|woff|ttf|svg|eot)$/,
+        loader: 'file-loader',
+      }
     ],
   },
   plugins: [
@@ -31,4 +33,7 @@ module.exports = {
       template: path.join(__dirname, 'src', 'index.html'),
     }),
   ],
+  devServer: {
+    historyApiFallback: true,
+  },
 };

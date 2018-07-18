@@ -6,15 +6,10 @@ class Sidebar extends React.Component {
     return (
       <aside className='sidebar'>
         <ul>
-          <li>
-            <Link to="/" className="navLink">Bonfires</Link>
-          </li>
-          <li>Bosses</li>
-          <li>Rings</li>
-          <li>Weapons</li>
-          <li>Estus Shards</li>
-          <li>Titanite Slabs</li>
-          <li>Undead Bone Shards</li>
+          <li><Link to="/bonfires" className="navLink">Bonfires</Link></li>
+          <li><Link to="/bosses" className="navLink">Bosses</Link></li>
+          <li><Link to="/rings" className="navLink">Rings</Link></li>
+          <li><Link to="/weapons" className="navLink">Weapons</Link></li>
         </ul>
       </aside>
     );
