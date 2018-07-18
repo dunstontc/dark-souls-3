@@ -6,22 +6,25 @@ html, body, .flex-container {
 
 .flex-container {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: column wrap;
 	justify-content: space-between; // Horizontal
-	// align-items: stretch;    // Vertical (cross-axis)
+	align-items: stretch;    // Vertical (cross-axis)
 	height: 100vh;
 }
 
 header {
   margin : 0px;
-	padding: 0px;
+  padding: 0px;
+  // height: 10vh;
 }
 
-aside {}
+aside.sidebar {
+  width: 20%;
+}
 
 .main-body {
-	flex-grow : 1;
+  // flex-grow: 1;
+  width: 80%;
 }
 
-footer {
-}
+footer {}

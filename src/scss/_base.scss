@@ -7,14 +7,16 @@
 
 * {
   box-sizing: border-box;
+  font-family: Garamond;
 }
 
 style { display: none; }
 
-body, html {
+body, html, #app {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  height: 100vh;
 }
 
 a {

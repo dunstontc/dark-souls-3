@@ -1,7 +1,10 @@
-@import 'scss/base';
-@import 'scss/layout';
-// @import 'scss/grid';
+@import 'scss/mixins';
 
-* {
-  border: solid .5px black;
-}
+@import 'scss/base';
+// @import 'scss/layout';
+@import 'scss/grid';
+@import 'scss/fonts';
+
+// * {
+//   border: solid .5px black;
+// }

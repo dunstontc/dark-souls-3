@@ -1,5 +1,7 @@
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const WriteFilePlugin   = require('write-file-webpack-plugin');
 
 module.exports = {
   entry: path.join(__dirname, 'src', 'index.js'),
@@ -23,9 +25,14 @@ module.exports = {
         ]
       },
       {
-        test: /\.(woff2|woff|ttf|svg|eot)$/,
-        loader: 'file-loader',
-      }
+        test: /\.(ttf|eot|woff|woff2)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "fonts/[name].[ext]",
+          },
+        },
+      },
     ],
   },
   plugins: [
@@ -33,7 +40,5 @@ module.exports = {
       template: path.join(__dirname, 'src', 'index.html'),
     }),
   ],
-  devServer: {
-    historyApiFallback: true,
-  },
+  devServer: { historyApiFallback: true},
 };
