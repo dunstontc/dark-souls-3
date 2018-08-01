@@ -12,5 +12,5 @@ export default [
   "Kiln of the First Flame",
   "The Painted World of Ariandel",
   "The Dreg Heap",
-  "The Ringed City"
+  "The Ringed City",
 ]
