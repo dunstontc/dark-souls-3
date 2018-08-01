@@ -8,6 +8,7 @@
 * {
   box-sizing: border-box;
   font-family: Garamond;
+  color: papayawhip;
 }
 
 style { display: none; }
@@ -17,23 +18,26 @@ body, html, #app {
   margin: 0px;
   padding: 0px;
   height: 100vh;
+  background-color: black;
 }
 
 a {
   text-decoration: none;
+  color: var(--yellow);
 }
 
 a:hover   { text-decoration: underline; }
-a:visited {}
+a:visited {color: var(--yellow)}
 
 
 ul, li {
   list-style: none;
+  list-style-position: outside;
   color: var(--yellow);
 }
 
 header {
-  background-color: var(--yellow);
+  background-color: var(--brown);
 }
 
 .sidebar {
