@@ -2,8 +2,18 @@ export default [
 	{
 		"name": "Life Ring",
 		"weight": 0.3,
-		"effect": "Increases HP by 7%. +1 Version : 8% +2 Version : 9% +3 Version : 10%",
-		"location": "Can be selected as a Burial Gift during character creation. Can be bought from the Shrine Handmaid in the Firelink Shrine for 1500 souls after aquiring the Dreamchasers Ashes.  +1 Version (NG+): Located in the Undead Settlement. Behind Siegward while he is waiting to battle the fire demon. +2 Version (NG+): Lothric Castle. From the dark room where you fight the pus of man in the wyverns hand, head outside from the back exit. Turn right and drop down off the ledge. The ring is on a corpse. This version can be picked up here starting in NG+. +3 Version (NG++): In Untended Graves behind Holy King Lothrics throne."
+    "effect": `
+      Increasevs HP by 7%.
+      +1 Version : 8%
+      +2 Version : 9%
+      +3 Version : 10%
+    `,
+    "location": `
+      Can be selected as a Burial Gift during character creation. Can be bought from the Shrine Handmaid in the Firelink Shrine for 1500 souls after aquiring the Dreamchasers Ashes.
+      +1 Version (NG+): Located in the Undead Settlement. Behind Siegward while he is waiting to battle the fire demon.
+      +2 Version (NG+): Lothric Castle. From the dark room where you fight the pus of man in the wyverns hand, head outside from the back exit. Turn right and drop down off the ledge. The ring is on a corpse. This version can be picked up here starting in NG+.
+      +3 Version (NG++): In Untended Graves behind Holy King Lothrics throne.
+    `,
 	},
 	{
 		"name": "Sun Princess Ring",
@@ -26,20 +36,50 @@ export default [
 	{
 		"name": "Chloranthy Ring",
 		"weight": 0.7,
-		"effect": "Raises stamina recovery speed +7 stamina per second +1 Version : +8 stamina per second +2 Version : +9 stamina per second +3 Version : +11 stamina per second",
-		"location": "Found in Undead Settlement. After defeating the Demon alongside Siegward of Catarina, scale the nearby building and exit onto the adjacent tower by jumping from the roof. Maneuvering down the tower, the ring will be located under several wooden boxes near the Mirrah Armor Set. +1 Version (NG+) Irithyll of the Boreal Valley. Behind the pedestal with the Ring of the Suns First Born on top of it. Easily accessible by falling from the ledge near Pontiff Sulyvhans fog gate or walking from the Church of Yorshka.  +2 Version (NG++) From the first Road of Sacrifices bonfire, head to the wagon with the two Corvians. To the left is a crow mage. To the left of him theres a ledge that you can drop down to that has the ring. +3 Version (The Ringed City): Take the lift down from the Ringed City Streets bonfire. This is the shortcut and will be unlocked as you pregress this area. As you go down look for the side passage and roll onto it as you go. Find the hole and drop down to the statue of Gwyn to find this ring."
+    "effect": `
+      Raises stamina recovery speed +7 stamina per second
+      +1 Version : +8 stamina per second
+      +2 Version : +9 stamina per second
+      +3 Version : +11 stamina per second
+    `,
+    "location": `
+      Found in Undead Settlement. After defeating the Demon alongside Siegward of Catarina, scale the nearby building and exit onto the adjacent tower by jumping from the roof. Maneuvering down the tower, the ring will be located under several wooden boxes near the Mirrah Armor Set.
+      +1 Version (NG+) Irithyll of the Boreal Valley. Behind the pedestal with the Ring of the Suns First Born on top of it. Easily accessible by falling from the ledge near Pontiff Sulyvhans fog gate or walking from the Church of Yorshka.
+      +2 Version (NG++) From the first Road of Sacrifices bonfire, head to the wagon with the two Corvians. To the left is a crow mage. To the left of him theres a ledge that you can drop down to that has the ring.
+      +3 Version (The Ringed City): Take the lift down from the Ringed City Streets bonfire. This is the shortcut and will be unlocked as you pregress this area. As you go down look for the side passage and roll onto it as you go. Find the hole and drop down to the statue of Gwyn to find this ring.
+    `
 	},
 	{
 		"name": "Havels Ring",
 		"weight": 1.5,
-		"effect": "Increases maximum equip load by 15% +1 Version : +17% +2 Version : +18% +3 Version : + 19%",
-		"location": "Created with the Soul of a Stray Demon +1 Version (NG+): Archdragon Peak. From the altar that gives you the Twinkling Dragon Torso Stone, go back down the steps. The ring is to the right of the doorway. +2 Version (NG++): On a wooden beam below the Prison Tower bonfire in Irithyll of the Boreal Valley/Anor Londo, after Painting Guardian Curved Sword and the Painting Guardian Set. +3 Version (The Ringed City): Just below where you get invaded by Dark Spirit Ledo, on the ledges above the swamp."
+    "effect": `
+      Increases maximum equip load by 15%
+      +1 Version : +17%
+      +2 Version : +18%
+      +3 Version : +19%
+    `,
+    "location": `
+      Created with the Soul of a Stray Demon
+      +1 Version (NG+): Archdragon Peak. From the altar that gives you the Twinkling Dragon Torso Stone, go back down the steps. The ring is to the right of the doorway.
+      +2 Version (NG++): On a wooden beam below the Prison Tower bonfire in Irithyll of the Boreal Valley/Anor Londo, after Painting Guardian Curved Sword and the Painting Guardian Set.
+      +3 Version (The Ringed City): Just below where you get invaded by Dark Spirit Ledo, on the ledges above the swamp.
+    `
 	},
 	{
 		"name": "Ring of Favor",
 		"weight": 1.5,
-		"effect": "Increases max HP by 3%, stamina by 8.5% and equip load by 5% +1 Version : Increases max HP by 4.5%, stamina by 9.5% and equip load by 6% +2 Version : Increases max HP by 5%, stamina by 10.5% and equip load by 7% +3 Version : Increases max HP by 6%, max Stamina by 11.5% and Equip Load by 8%",
-		"location": "Defeat Sulyvhans Beasts near Archdeacon McDonnell +1 Version (NG+): Can be found in the room of Pontiff Sulyvahns bonfire, but is located upstairs. It can be either accessed by the shortcut in the room or taking the path around. +2 Version (NG++): Located in the Cathedral of the Deep. From the Cleansing chapel bonfire, while facing the bonfire. go through the left shortcut, head up the elevator, climb the ladder behind the tower, drop down to the ledge, and follow the path to the top part of the chapel. To the left there is a hollow with a giant axe. behind him is this ring. +3 Version (The Dreg Heap) can be found on a corpse, up a large root in the swamp just after the Earthen Peak Ruins bonfire. Retrieve it in order to progress Lapps questline."
+    "effect": `
+      Increases max HP by 3%, stamina by 8.5% and equip load by 5%
+      +1 Version : Increases max HP by 4.5%, stamina by 9.5% and equip load by 6%
+      +2 Version : Increases max HP by 5%, stamina by 10.5% and equip load by 7%
+      +3 Version : Increases max HP by 6%, max Stamina by 11.5% and Equip Load by 8%
+    `,
+    "location": `
+      Defeat Sulyvhans Beasts near Archdeacon McDonnell
+      +1 Version (NG+): Can be found in the room of Pontiff Sulyvahns bonfire, but is located upstairs. It can be either accessed by the shortcut in the room or taking the path around.
+      +2 Version (NG++): Located in the Cathedral of the Deep. From the Cleansing chapel bonfire, while facing the bonfire. go through the left shortcut, head up the elevator, climb the ladder behind the tower, drop down to the ledge, and follow the path to the top part of the chapel. To the left there is a hollow with a giant axe. behind him is this ring.
+      +3 Version (The Dreg Heap) can be found on a corpse, up a large root in the swamp just after the Earthen Peak Ruins bonfire. Retrieve it in order to progress Lapps questline.
+    `
 	},
 	{
 		"name": "Prisoners Chain",
@@ -50,50 +90,110 @@ export default [
 	{
 		"name": "Ring of Steel Protection",
 		"weight": 0.8,
-		"effect": "Decreases incoming physical damage by 10% +1 Version : 13% +2 Version : 15% +3 Version : 17%",
-		"location": "Found in the boss arena where you fight the Ancient Wyvern. After entering through the fog gate, head up the stairs until you locate the bell. Then proceed to the right, downstairs. There are three items lying on the ground. Next to the items is a thin ledge that players can walk along. At the end of the path is the ring. +1 Version (NG+): Untended Graves behind the tower that is unlocked by the Tower Key +2 Version (NG++): Located in the Catacombs of Carthus. From the Abyss Watchers Bonfire go down and head left until you find a bridge to your right. The bridge will be defended by a large skeleton carrying a sword and shield. Look down to the left and you will notice an item on a pillar. Drop down from the bridge onto the pillar to obtain this ring. Turn around to find the Carthus Pyromancy Tome. +3 Version (The Ringed City): Immediately after The Dreg Heap bonfire, head forward and past the horde of enemies to a corpse. When you try to grab it you will fall and the ceiling will break, and you will fall. Once at the bottom, out the only door, there will be an angel-like hollow firing projectiles at you. Drop down and run past it and take cover behind the building. Now circle around to the other side of the building along the planks (leaving yourself exposed to the Angels beams) to find a corpse with the ring."
+    "effect": `
+      Decreases incoming physical damage by 10%
+      +1 Version : 13%
+      +2 Version : 15%
+      +3 Version : 17%
+    `,
+    "location": `
+      Found in the boss arena where you fight the Ancient Wyvern. After entering through the fog gate, head up the stairs until you locate the bell. Then proceed to the right, downstairs. There are three items lying on the ground. Next to the items is a thin ledge that players can walk along. At the end of the path is the ring.
+      +1 Version (NG+): Untended Graves behind the tower that is unlocked by the Tower Key
+      +2 Version (NG++): Located in the Catacombs of Carthus. From the Abyss Watchers Bonfire go down and head left until you find a bridge to your right. The bridge will be defended by a large skeleton carrying a sword and shield. Look down to the left and you will notice an item on a pillar. Drop down from the bridge onto the pillar to obtain this ring. Turn around to find the Carthus Pyromancy Tome.
+      +3 Version (The Ringed City): Immediately after The Dreg Heap bonfire, head forward and past the horde of enemies to a corpse. When you try to grab it you will fall and the ceiling will break, and you will fall. Once at the bottom, out the only door, there will be an angel-like hollow firing projectiles at you. Drop down and run past it and take cover behind the building. Now circle around to the other side of the building along the planks (leaving yourself exposed to the Angels beams) to find a corpse with the ring.
+    `
 	},
 	{
 		"name": "Magic Stoneplate Ring",
 		"weight": 0.6,
-		"effect": "Increases Magic Absorption by 13% +1 Version : +17% +2 Version : +20%",
-		"location": "Dropped from the greatsword-wielding Consumed Kings Knight guarding Oceiros, the Consumed King +1 Version (NG+): Farron Keep bonfire before the swamp. From that bonfire, make a right and proceed to where the Basilisks are. The ring will be in this area. +2 Version (NG++): Start from the Profaned Capital Bonfire. Take the ladder down into the tower and head through the hole in the wall. From there, turn right and go down the stairs. The ring is at the end of the stairs, on the edge of a cliff."
+    "effect": `
+      Increases Magic Absorption by 13%
+      +1 Version : +17%
+      +2 Version : +20%
+    `,
+    "location": `
+      Dropped from the greatsword-wielding Consumed Kings Knight guarding Oceiros, the Consumed King
+      +1 Version (NG+): Farron Keep bonfire before the swamp. From that bonfire, make a right and proceed to where the Basilisks are. The ring will be in this area.
+      +2 Version (NG++): Start from the Profaned Capital Bonfire. Take the ladder down into the tower and head through the hole in the wall. From there, turn right and go down the stairs. The ring is at the end of the stairs, on the edge of a cliff.
+    `
 	},
 	{
 		"name": "Flame Stoneplate Ring",
 		"weight": 0.6,
-		"effect": "Increases Fire Absorption by 13% +1 Version : +17% +2 Version : +20%",
-		"location": "Found on a corpse hanging at a tree overlooking the entrance of the tower with the giant in it at Undead Settlement (the same area where you enter the cage to join the Mound Makers). +1 Version (NG+): Located in the Profaned Capital. In the area with the toxic swamp, climb up the buildings ladder and walk along the curved part of roof until you see a hole in the wall to your right. Look down, directly across from the broken section of wall is a small ledge to drop onto and the ring will be on a corpse. +2 Version (NG++): Located in the Demon Ruins. From the Old Kings Antechamber bonfire, go down the immediate stairs and follow the path until you come to a fork in the path. Left will be an illusionary wall where there will be a Black Knight fighting a Ghru. The ring will be on a corpse near a wall, along with a Black Knight Sword."
+    "effect": `
+      Increases Fire Absorption by 13%
+      +1 Version : +17%
+      +2 Version : +20%
+    `,
+    "location": `
+      Found on a corpse hanging at a tree overlooking the entrance of the tower with the giant in it at Undead Settlement (the same area where you enter the cage to join the Mound Makers).
+      +1 Version (NG+): Located in the Profaned Capital. In the area with the toxic swamp, climb up the buildings ladder and walk along the curved part of roof until you see a hole in the wall to your right. Look down, directly across from the broken section of wall is a small ledge to drop onto and the ring will be on a corpse.
+      +2 Version (NG++): Located in the Demon Ruins. From the Old Kings Antechamber bonfire, go down the immediate stairs and follow the path until you come to a fork in the path. Left will be an illusionary wall where there will be a Black Knight fighting a Ghru. The ring will be on a corpse near a wall, along with a Black Knight Sword.
+    `
 	},
 	{
 		"name": "Thunder Stoneplate Ring",
 		"weight": 0.6,
-		"effect": "Increases Lightning Absorption by 13% +1 Version : +17% +2 Version : +20%",
-		"location": "Archdragon Peak: From the second bonfire, proceed through the area until you get outside, then near the wooden scaffold there is a ladder which leads to the ring +1 Version (NG+) Can be found near the Carthus Milkring, among the many pots in the Catacombs of Carthus +2 Version (NG++): Can be found before the Dragonslayer Armour Boss in Lothric Castle. Before the boss fight theres a door lit by torches. Proceed trough the door and up the stairs. Turn left trough another door then left again to find a hole in the stone railing. Drop down to the ledge below and turn right. Follow the ledge to find this ring. The ring is on the same small rooftop that you would drop down to get Caithas Chime, its just on the opposite end."
+    "effect": `
+      Increases Lightning Absorption by 13%
+      +1 Version : +17%
+      +2 Version : +20%
+    `,
+    "location": `
+      Archdragon Peak: From the second bonfire, proceed through the area until you get outside, then near the wooden scaffold there is a ladder which leads to the ring
+      +1 Version (NG+) Can be found near the Carthus Milkring, among the many pots in the Catacombs of Carthus
+      +2 Version (NG++): Can be found before the Dragonslayer Armour Boss in Lothric Castle. Before the boss fight theres a door lit by torches. Proceed trough the door and up the stairs. Turn left trough another door then left again to find a hole in the stone railing. Drop down to the ledge below and turn right. Follow the ledge to find this ring. The ring is on the same small rooftop that you would drop down to get Caithas Chime, its just on the opposite end.
+    `
 	},
 	{
 		"name": "Dark Stoneplate Ring",
 		"weight": 0.6,
-		"effect": "Increases Dark Absorption by 13% +1 Version : +17% +2 Version : +20%",
-		"location": "In Anor Londo, following the Pontiff Sulyvahn bonfire. The ring will be guarded by Irithyllian Slaves in an area beneath the Deacons casting Fireball. +1 Version (NG+) : Lothric Castle Before entering the fog gate for the Dragonslayer Armour, head left and drop down to fight the Pus of Man on the white Wyvern. Next to the Wyvern is a room with a mimic and a doorway out to a balcony. This ring is located on right side the balcony. +2 Version (NG++): Farron Keep, the Keep Ruins bonfire. Leave the room where you find 3 Ghru enemies on a bridge. Cross the bridge, you can find a dilapidated wall to your left. In front of the wall is a flame you need to extinguish to reach the Abyss Watchers. The ring is behind this wall, youll need to roll through some crucifixes to reach it."
+    "effect": `
+      Increases Dark Absorption by 13%
+      +1 Version : +17%
+      +2 Version : +20%
+    `,
+    "location": `
+      In Anor Londo, following the Pontiff Sulyvahn bonfire. The ring will be guarded by Irithyllian Slaves in an area beneath the Deacons casting Fireball.
+      +1 Version (NG+) : Lothric Castle Before entering the fog gate for the Dragonslayer Armour, head left and drop down to fight the Pus of Man on the white Wyvern. Next to the Wyvern is a room with a mimic and a doorway out to a balcony. This ring is located on right side the balcony.
+      +2 Version (NG++): Farron Keep, the Keep Ruins bonfire. Leave the room where you find 3 Ghru enemies on a bridge. Cross the bridge, you can find a dilapidated wall to your left. In front of the wall is a flame you need to extinguish to reach the Abyss Watchers. The ring is behind this wall, youll need to roll through some crucifixes to reach it.
+    `
 	},
 	{
 		"name": "Speckled Stoneplate Ring",
 		"weight": 0.9,
-		"effect": "Increases Magic, Fire, Lightning and Dark Absorption by 5% +1 Version : +7%",
-		"location": "Found on a corpse in Smouldering Lake, behind a destructible wall on the other side from which you enter. Lure a ballista shot to break the wall apart. +1 Version (NG+) Cemetery of Ash. In the arena where you find the first Ravenous Crystal Lizard."
+    "effect": `
+      Increases Magic, Fire, Lightning and Dark Absorption by 5%
+      +1 Version : +7%
+    `,
+    "location": `
+      Found on a corpse in Smouldering Lake, behind a destructible wall on the other side from which you enter. Lure a ballista shot to break the wall apart.
+      +1 Version (NG+) Cemetery of Ash. In the arena where you find the first Ravenous Crystal Lizard.
+    `
 	},
 	{
 		"name": "Bloodbite Ring",
 		"weight": 0.6,
-		"effect": "Increases Bleed Resistance by 90 points +1 Version : +140",
-		"location": "Undead Settlement, in the sewers below Cliff Underside bonfire or beside the Dilapidated Bridge bonfire. The Large Hound-Rat will drop the ring. +1 Version (NG+): Smouldering Lake, make your way through the Demon Ruins to find it in front of the ballista."
+    "effect": `
+      Increases Bleed Resistance by 90 points
+      +1 Version : +140
+    `,
+    "location": `
+      Undead Settlement, in the sewers below Cliff Underside bonfire or beside the Dilapidated Bridge bonfire. The Large Hound-Rat will drop the ring.
+      +1 Version (NG+): Smouldering Lake, make your way through the Demon Ruins to find it in front of the ballista.
+    `
 	},
 	{
 		"name": "Poisonbite Ring",
 		"weight": 0.6,
-		"effect": "Increases Poison Resistance by 90 points +1 Version : +140",
-		"location": "Near the first short cut at Cathedral of the Deep behind the Ravenous Crystal Lizard. +1 Version (NG+): Undead Settlement In the graveyard beside the white birch tree (Where the giant is shooting great arrows at you/enemies nearby) youll find a well hidden in a corner. The ring is on a corpse behind the well."
+    "effect": `
+      Increases Poison Resistance by 90 points
+      +1 Version : +140
+    `,
+    "location": `
+      Near the first short cut at Cathedral of the Deep behind the Ravenous Crystal Lizard.
+      +1 Version (NG+): Undead Settlement In the graveyard beside the white birch tree (Where the giant is shooting great arrows at you/enemies nearby) youll find a well hidden in a corner. The ring is on a corpse behind the well.
+    `
 	},
 	{
 		"name": "Cursebite Ring",
@@ -104,8 +204,14 @@ export default [
 	{
 		"name": "Fleshbite Ring",
 		"weight": 0.9,
-		"effect": "Raises Poison, Bleed, Frost and Curse resist by 40 points +1 Version : +60",
-		"location": "Grand Archives, near the top floor of building just beyond the area with a balcony overhead and multiple Scholars, there will be a set of bookcases to the right of the stairs which lead you to the room. The ring will be located in the corner past the Clawed Curses. +1 Version (NG+): From the Tower on the Wall bonfire, head down to the roof with the transforming undead on it. Before descending the ladder to progress further, look to the nearby rooftop with fencing. Jumping will allow you access the rooftop and the ring will be on a corpse. (The item should be visible before jumping to the rooftop if you need confirmation)"
+    "effect": `
+      Raises Poison, Bleed, Frost and Curse resist by 40 points
+      +1 Version : +60
+    `,
+    "location": `
+      Grand Archives, near the top floor of building just beyond the area with a balcony overhead and multiple Scholars, there will be a set of bookcases to the right of the stairs which lead you to the room. The ring will be located in the corner past the Clawed Curses.
+      +1 Version (NG+): From the Tower on the Wall bonfire, head down to the roof with the transforming undead on it. Before descending the ladder to progress further, look to the nearby rooftop with fencing. Jumping will allow you access the rooftop and the ring will be on a corpse. (The item should be visible before jumping to the rooftop if you need confirmation)
+    `
 	},
 	{
 		"name": "Knights Ring",
@@ -134,14 +240,34 @@ export default [
 	{
 		"name": "Covetous Gold Serpent Ring",
 		"weight": 1.2,
-		"effect": "Increases item discovery +50 +1 Version : +75 +2 Version : +100 +3 Version: +125",
-		"location": "Found next to Siegward of Catarina when he is trapped in Irithyll Dungeon. +1 version (NG+): From the Church of Yorshka bonfire in Irithyll of the Boreal Valley, proceed beyond the graveyard to the dark room with the Irithyllian Slaves. As youre exiting the room through the wide arched doorway, scan the right side for a broken section of railing where you can drop down. The ring will be on a corpse wedged in the corner of the ledge. +2 Version (NG++): Archdragon Peak, in a large area that appears on defeating the Nameless King, on the right side of the arena from the gateway that the bonfire is under, the ring rests at the top of the second stairway. You can also find the Dragonslayer Set and a Titanite Slab in this area. +3 Version (The Ringed City): All the way down the stairs from the Shira and and left and up the ladder immediately on your left in the swamp. Double back across the bridge, defeating the two Ringed Knights. On a corpse in a room past them with Lapp inside."
+    "effect": `
+      Increases item discovery +50
+      +1 Version : +75
+      +2 Version : +100
+      +3 Version: +125
+    `,
+    "location": `
+      Found next to Siegward of Catarina when he is trapped in Irithyll Dungeon.
+      +1 version (NG+): From the Church of Yorshka bonfire in Irithyll of the Boreal Valley, proceed beyond the graveyard to the dark room with the Irithyllian Slaves. As youre exiting the room through the wide arched doorway, scan the right side for a broken section of railing where you can drop down. The ring will be on a corpse wedged in the corner of the ledge.
+      +2 Version (NG++): Archdragon Peak, in a large area that appears on defeating the Nameless King, on the right side of the arena from the gateway that the bonfire is under, the ring rests at the top of the second stairway. You can also find the Dragonslayer Set and a Titanite Slab in this area.
+      +3 Version (The Ringed City): All the way down the stairs from the Shira and and left and up the ladder immediately on your left in the swamp. Double back across the bridge, defeating the two Ringed Knights. On a corpse in a room past them with Lapp inside.
+    `
 	},
 	{
 		"name": "Covetous Silver Serpent Ring",
 		"weight": 1.2,
-		"effect": "Fallen foes yield +10% more souls +1 Version : +20% +2 Version : +30% +3 Version : +35%",
-		"location": "In a chest behind an illusory wall at the top of Firelink Shrine. Located behind Picklepums indoor nest. +1 Version (NG+): While progressing through Irithyll Dungeon, youll find an elevator shortcut that heads to the first bonfire of the area. This ring is located in the elevators room. +2 Version (NG++): Undead Settlement. In the area after meeting Siegward with the Fire Demon, located on the roof of a shack in the far back of the area. Drop off the wooden ledge outside the room with two Cathedral Evangelists to access it. +3 Version (The Dreg Heap) After meeting the first angel that shoots at you fall down onto the perch and continue into the open door archway. From there you should see 2 Knight enemies and on the right hand side there is an area you enter. You make a right and you should be in some small quarter areas. Proceed all the way to the furthest wall north of you. Turn to the left and hit it to reveal a fog wall. Climb the stairs there and just before you obtain Great Soul Dreg on your left, is a balcony. From that balcony you must drop down and there is your ring."
+    "effect": `
+      Fallen foes yield +10% more souls
+      +1 Version : +20%
+      +2 Version : +30%
+      +3 Version : +35%
+    `,
+    "location": `
+      In a chest behind an illusory wall at the top of Firelink Shrine. Located behind Picklepums indoor nest.
+      +1 Version (NG+): While progressing through Irithyll Dungeon, youll find an elevator shortcut that heads to the first bonfire of the area. This ring is located in the elevators room.
+      +2 Version (NG++): Undead Settlement. In the area after meeting Siegward with the Fire Demon, located on the roof of a shack in the far back of the area. Drop off the wooden ledge outside the room with two Cathedral Evangelists to access it.
+      +3 Version (The Dreg Heap) After meeting the first angel that shoots at you fall down onto the perch and continue into the open door archway. From there you should see 2 Knight enemies and on the right hand side there is an area you enter. You make a right and you should be in some small quarter areas. Proceed all the way to the furthest wall north of you. Turn to the left and hit it to reveal a fog wall. Climb the stairs there and just before you obtain Great Soul Dreg on your left, is a balcony. From that balcony you must drop down and there is your ring.
+    `
 	},
 	{
 		"name": "Saints Ring",
@@ -200,14 +326,30 @@ export default [
 	{
 		"name": "Lingering Dragoncrest Ring",
 		"weight": 0.5,
-		"effect": "Extends length of spell effect by 30% +1 Version : +35% +2 Version : +40%",
-		"location": "Farron Keep, Keep Ruins bonfire. Drops from the Great Crab patrolling a white birch tree. +1 Version (NG+): Found next to the giant crab just below the Crucifixion Woods bonfire in the Road of Sacrifices. +2 Version (NG++): Located in Lothric Castle. Before the Lothric Prince Boss fight, there is a dome shaped roof with three golden Winged Knights. Go up the spiral staircase at the center of the dome shaped roof. Youll encounter a ladder, dont go up the ladder, instead go around the ledge to find this ring on a corpse hidden in an alcove."
+    "effect": `
+      Extends length of spell effect by 30%
+      +1 Version : +35%
+      +2 Version : +40%
+    `,
+    "location": `
+      Farron Keep, Keep Ruins bonfire. Drops from the Great Crab patrolling a white birch tree.
+      +1 Version (NG+): Found next to the giant crab just below the Crucifixion Woods bonfire in the Road of Sacrifices.
+      +2 Version (NG++): Located in Lothric Castle. Before the Lothric Prince Boss fight, there is a dome shaped roof with three golden Winged Knights. Go up the spiral staircase at the center of the dome shaped roof. Youll encounter a ladder, dont go up the ladder, instead go around the ledge to find this ring on a corpse hidden in an alcove.
+    `
 	},
 	{
 		"name": "Sage Ring",
 		"weight": 0.7,
-		"effect": "Spell casting speed increased as if you had +30 higher dexterity +1 Version : +35 +2 Version : +40",
-		"location": "Found to the left of the swamp area of Road of Sacrifices inside a room with an enemy.  +1 Version (NG+): found in the rafters above the Archives. Drop down from the roof where the golden winged knights are located. +2 Version (NG++): Located in the Consumed Kings garden. When initially taking the elevator down, get off halfway to a ledge. Turn left and drop down onto some broken stairs. Pick up the item here and look to the left to find the ring on another set of broken stairs. You can get over there with a well timed roll."
+    "effect": `
+      Spell casting speed increased as if you had +30 higher dexterity
+      +1 Version : +35
+      +2 Version : +40
+    `,
+    "location": `
+      Found to the left of the swamp area of Road of Sacrifices inside a room with an enemy.
+      +1 Version (NG+): found in the rafters above the Archives. Drop down from the roof where the golden winged knights are located.
+      +2 Version (NG++): Located in the Consumed Kings garden. When initially taking the elevator down, get off halfway to a ledge. Turn left and drop down onto some broken stairs. Pick up the item here and look to the left to find the ring on another set of broken stairs. You can get over there with a well timed roll.
+    `
 	},
 	{
 		"name": "Dusk Crown Ring",
@@ -248,8 +390,18 @@ export default [
 	{
 		"name": "Ring of the Evil Eye",
 		"weight": 1,
-		"effect": "Absorb +30 HP from each defeated foe. +1 Version : +33 HP +2 Version : +35 HP +3 Version: +37 HP",
-		"location": "Quest Reward: Anri of Astora. Obtained when Anri relocates to the Church of Yorshka. +1 Version (NG+): Can be found just before Deacons of the Deep fight, at the back of the altar. +2 Version (NG++): Located in the High Wall of Lothric. From the second bonfire, head down to the roof with the first crystal lizard and the enemy that morphs. Climb the ladder down. Run past the spear wielding Lothric knight. Head down into the room with the estus shard on the mantle. The ring will be on the wall to the left, hidden behind a barrel. +3 Version (The Ringed City): Dropped from a mimic inside the spiral crypt across the bridge from the Ringed City Streets bonfire shortcut."
+    "effect": `
+      Absorb +30 HP from each defeated foe.
+      +1 Version : +33 HP
+      +2 Version : +35 HP
+      +3 Version: +37 HP
+    `,
+    "location": `
+      Quest Reward: Anri of Astora. Obtained when Anri relocates to the Church of Yorshka.
+      +1 Version (NG+): Can be found just before Deacons of the Deep fight, at the back of the altar.
+      +2 Version (NG++): Located in the High Wall of Lothric. From the second bonfire, head down to the roof with the first crystal lizard and the enemy that morphs. Climb the ladder down. Run past the spear wielding Lothric knight. Head down into the room with the estus shard on the mantle. The ring will be on the wall to the left, hidden behind a barrel.
+      +3 Version (The Ringed City): Dropped from a mimic inside the spiral crypt across the bridge from the Ringed City Streets bonfire shortcut.
+    `
 	},
 	{
 		"name": "Farron Ring",
@@ -272,8 +424,16 @@ export default [
 	{
 		"name": "Wood Grain Ring",
 		"weight": 0.5,
-		"effect": "Increases weapon durability by 20% +1 Version : +30% +2 Version : +40%",
-		"location": "Purchased from the Shrine Handmaid after Easterners Ashes is turned in. +1 Version (NG+): Behind the first elevator in the Consumed Kings Garden, at the bottom. +2 Version (NG++): Irithyll of the Boreal Valley- Run past the room with the three Silver knights (room that contains Gwyneveres painting and Smoughs hammer in a chest), go outside, turn right and the ring is located in an alcove"
+    "effect": `
+      Increases weapon durability by 20%
+      +1 Version : +30%
+      +2 Version : +40%
+    `,
+    "location": `
+      Purchased from the Shrine Handmaid after Easterners Ashes is turned in.
+      +1 Version (NG+): Behind the first elevator in the Consumed Kings Garden, at the bottom.
+      +2 Version (NG++): Irithyll of the Boreal Valley- Run past the room with the three Silver knights (room that contains Gwyneveres painting and Smoughs hammer in a chest), go outside, turn right and the ring is located in an alcove
+    `
 	},
 	{
 		"name": "Flynns Ring",
