@@ -5,6 +5,7 @@ const PageNotFound = (props) => {
   const style404 = {
     fontSize: 72,
     fontWeight: 'bold',
+    color: 'papayawhip',
   };
 
   // let message = 'Page not found';
@@ -15,9 +16,11 @@ const PageNotFound = (props) => {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      {/* <h1>{message}</h1> */}
-      <div style={style404}>404</div>
-      ¯\_(ツ)_/¯
+      <div style={style404}>
+        404
+        <br/>
+        ¯\_(ツ)_/¯
+      </div>
     </div>
   );
 };

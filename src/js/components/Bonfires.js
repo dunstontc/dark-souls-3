@@ -1,26 +1,28 @@
 import React from 'react';
+import locations from '../data/ds3/locations';
 
-const locations = [
-  "Cemetery of Ash",
-  "High Wall of Lothric",
-  "Undead Settlement",
-  "Road of Sacrifices",
-  "Cathedral of the Deep",
-  "Catacombs of Carthus",
-  "Irithyll of the Boreal Valley",
-  "Irithyll Dungeon",
-  "Lothric Castle",
-  "Archdragon Peak",
-  "Kiln of the First Flame",
-  "The Painted World of Ariandel",
-  "The Dreg Heap",
-  "The Ringed City",
-];
 
-const LocationList = ({ locations }) => {
+const Location = ({location}) => {
+  const { name, bonfires } = location;
+  return (
+    <li> <h3>{name}</h3>
+      <ul>
+        {bonfires.map((bonfire) => {
+          if (bonfire.boss) {
+            return <li className="boss-bonfire">{bonfire.name}</li>
+          } else {
+            return <li>{bonfire.name}</li>
+          }
+        })}
+      </ul>
+    </li>
+  );
+};
+
+const LocationList = ({locations}) => {
   return (
     <ul>
-      {locations.map( loc => <li>{loc}</li> )}
+      {locations.map((location) => <Location location={location}/> )}
     </ul>
   );
 }
@@ -28,6 +30,7 @@ const LocationList = ({ locations }) => {
 const Bonfires = () => {
   return (
     <div className='bonfires'>
+      <h1 className="bonfire-title">Bonfires</h1>
       <LocationList locations={locations}/>
     </div>
   );

@@ -28,11 +28,13 @@ module.exports = {
         test: /\.(ttf|eot|woff|woff2)$/,
         use: {
           loader: "file-loader",
-          options: {
-            name: "fonts/[name].[ext]",
-          },
+          options: { name: "fonts/[name].[ext]" },
         },
       },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader'],
+      }
     ],
   },
   plugins: [

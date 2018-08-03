@@ -11,6 +11,8 @@ import Footer from './components/layout/Footer';
 import Main from './components/Main';
 import PageNotFound from './components/PageNotFound';
 import Bonfires from './components/Bonfires';
+import Rings from './components/Rings';
+import Collectables from './components/Collectables';
 
 class App extends React.Component {
   render() {
@@ -22,6 +24,8 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/" component={Main}/>
             <Route exact path="/bonfires" component={Bonfires}/>
+            <Route exact path="/rings" component={Rings}/>
+            <Route exact path="/collectables" component={Collectables}/>
             <Route component={PageNotFound}/>
           </Switch>
           <Footer/>
