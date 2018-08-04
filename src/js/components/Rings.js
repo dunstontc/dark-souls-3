@@ -1,5 +1,5 @@
 import React from 'react';
-import rings from '../data/ds3/rings';
+import rings from '../data/rings';
 
 
 const Ring = ({ring}) => {
@@ -16,7 +16,7 @@ const Ring = ({ring}) => {
 
 const Rings = () => {
   return (
-    <div className='bonfires'>
+    <div className='ring-table'>
       <h1 className="bonfire-title">Rings</h1>
       <table>
         <tr>

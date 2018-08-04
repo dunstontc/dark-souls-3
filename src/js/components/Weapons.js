@@ -1,8 +1,8 @@
 import React from 'react';
-import locations from '../data/locations';
+import locations from '../data/weapons2';
 
 
-const Location = ({location}) => {
+const Weapon = ({weapon}) => {
   const { name, bonfires } = location;
   return (
     <li> <h3>{name}</h3>
