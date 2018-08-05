@@ -8,10 +8,15 @@ const Location = ({location}) => {
     <li> <h3>{name}</h3>
       <ul>
         {bonfires.map((bonfire) => {
-          if (bonfire.boss) {
-            return <li className="boss-bonfire">{bonfire.name}</li>
-          } else {
-            return <li>{bonfire.name}</li>
+          switch (bonfire.type) {
+            case "normal":
+              return <li>{bonfire.name}</li>
+            case "boss":
+              return <li className="boss-bonfire">{bonfire.name}</li>;
+            case "lord":
+              return <li className="lord-bonfire">{bonfire.name}</li>;
+            default:
+              break;
           }
         })}
       </ul>

@@ -3,6 +3,7 @@
   --yellow: #EBCB66;
   --blue: #334670;
   --orange: #F56912;
+  --red: #A20E0A;
 }
 
 * {
@@ -32,7 +33,7 @@ a:visited {color: var(--yellow)}
 
 ul, li {
   list-style: none;
-  list-style-position: outside;
+  // list-style-position: outside;
   color: var(--yellow);
 }
 
@@ -45,14 +46,5 @@ header {
 }
 
 .navLink {
-  color: var(--yellow);
-}
-
-.boss-bonfire {
-  color: var(--orange);
-}
-
-.bonfire-title {
-  text-align: center;
   color: var(--yellow);
 }

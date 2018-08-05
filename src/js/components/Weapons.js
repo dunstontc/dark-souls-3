@@ -1,28 +1,26 @@
 import React from 'react';
-import locations from '../data/weapons2';
+import weapons from '../data/weapons';
 
 
 const Weapon = ({weapon}) => {
-  const { name, bonfires } = location;
+  const { name, weapons } = weapon;
   return (
     <li> <h3>{name}</h3>
       <ul>
-        {bonfires.map((bonfire) => {
-          if (bonfire.boss) {
-            return <li className="boss-bonfire">{bonfire.name}</li>
-          } else {
-            return <li>{bonfire.name}</li>
-          }
-        })}
+        {
+          weapons.map((weapon) => {
+            return <li>{weapon}</li>
+          })
+        }
       </ul>
     </li>
   );
 };
 
-const LocationList = ({locations}) => {
+const WeaponsList = ({weapons}) => {
   return (
     <ul>
-      {locations.map((location) => <Location location={location}/> )}
+      {weapons.map((weapon) => <Weapon weapon={weapon}/> )}
     </ul>
   );
 }
@@ -30,8 +28,8 @@ const LocationList = ({locations}) => {
 const Bonfires = () => {
   return (
     <div className='bonfires'>
-      <h1 className="bonfire-title">Bonfires</h1>
-      <LocationList locations={locations}/>
+      <h1 className="bonfire-title">Weapons</h1>
+      <WeaponsList weapons={weapons}/>
     </div>
   );
 };

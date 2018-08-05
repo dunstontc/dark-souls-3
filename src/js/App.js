@@ -13,6 +13,7 @@ import PageNotFound from './components/PageNotFound';
 import Bonfires from './components/Bonfires';
 import Rings from './components/Rings';
 import Collectables from './components/Collectables';
+import Weapons from './components/Weapons';
 
 class App extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class App extends React.Component {
             <Route exact path="/bonfires" component={Bonfires}/>
             <Route exact path="/rings" component={Rings}/>
             <Route exact path="/collectables" component={Collectables}/>
+            <Route exact path="/weapons" component={Weapons}/>
             <Route component={PageNotFound}/>
           </Switch>
           <Footer/>
