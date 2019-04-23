@@ -7,18 +7,18 @@ const Location = ({location}) => {
   return (
     <li> <h3>{name}</h3>
       <ul>
-        {bonfires.map((bonfire) => {
-          switch (bonfire.type) {
-            case "normal":
-              return <li>{bonfire.name}</li>
-            case "boss":
-              return <li className="boss-bonfire">{bonfire.name}</li>;
-            case "lord":
-              return <li className="lord-bonfire">{bonfire.name}</li>;
-            default:
-              break;
-          }
-        })}
+        {
+          bonfires.map((bonfire) => {
+            switch (bonfire.type) {
+              case "lord":
+                return <li className="lord-bonfire">{bonfire.name}</li>;
+              case "boss":
+                return <li className="boss-bonfire">{bonfire.name}</li>;
+              default:
+                return <li>{bonfire.name}</li>;
+            }
+          })
+        }
       </ul>
     </li>
   );
